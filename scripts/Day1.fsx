@@ -1,4 +1,4 @@
-﻿let input = System.IO.File.ReadAllText "Input1.txt"
+﻿let input = System.IO.File.ReadAllText "Input01.txt"
 
 let mappedInput = input |> Seq.map (fun x -> if x = '(' then 1 else -1) 
 

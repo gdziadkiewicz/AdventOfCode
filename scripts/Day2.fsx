@@ -1,4 +1,4 @@
-﻿let input = System.IO.File.ReadAllLines "Input2.txt"
+﻿let input = System.IO.File.ReadAllLines "Input02.txt"
 
 type dims = 
     {
